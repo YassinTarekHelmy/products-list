@@ -91,3 +91,46 @@ form input[type="submit"]:hover{
     font-size: 18px;
     border: 2px solid #08080833;
 }
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantity-controls button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.quantity-controls button:hover {
+    background: #ddd;
+}
+
+.quantity-controls span {
+    min-width: 20px;
+    text-align: center;
+}
+
+.delete {
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}
+
+.delete:hover {
+    color: darkred;
+}
