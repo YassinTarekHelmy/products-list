@@ -7,8 +7,8 @@ import Total from './components/total/total'
 class App extends Component {
   state = {
     items: [
-      {id:1, product:'Pen', price:2, quantity:1},
-      {id:2, product:'Book', price:10, quantity:1}
+      {id:1, product:'Pen', price:2, quantity:1 },
+      {id:2, product:'Book', price:10, quantity:1 }
     ]
   }
 
